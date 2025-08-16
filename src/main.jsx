@@ -4,6 +4,9 @@ import App from './App.jsx'
 import './index.css'
 import AOS from 'aos'
 import "aos/dist/aos.css";
+// Add CSS
+import './assets/css/addition.css';
+import './assets/css/custom.css';
 
 AOS.init({
   duration: 1000,

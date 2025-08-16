@@ -8,6 +8,8 @@ import Events from "../components/otherSections/events";
 import Blogs from "../components/otherSections/blogs";
 import Footer from "../components/otherSections/footer";
 
+import FloatingSocials from '../components/otherSections/FloatingSocials';
+
 function Landing() {
     return (
         <>
@@ -31,7 +33,9 @@ function Landing() {
             </section>
             <section>
                 <Footer/>
+                <FloatingSocials />
             </section>
+            
         </>
     )
 }

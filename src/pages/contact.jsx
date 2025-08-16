@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import MapContainer from '../components/map/mapContainer';
 
+import InnerPageBanner from '../components/otherSections/InnerPageBanner';
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',

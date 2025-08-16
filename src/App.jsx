@@ -7,6 +7,7 @@ import GetInvolved from './pages/getInvolved';
 import BlogDetail from './pages/blogDetail';
 import Navbar from './components/hero/Navbar';
 import OurTeam from './components/about/OurTeam';
+import PDFViewerPage from './pages/PDFViewerPage';
 
 export default function App() {
   return (
@@ -19,7 +20,10 @@ export default function App() {
           <Route path="/contact" element={<><Navbar/><Contact/></>} />
           <Route path="/get-involved" element={<><Navbar/><GetInvolved/></>} />
           <Route path="/blog/:id" element={<><Navbar/><BlogDetail/></>} /> 
-           <Route path="/about/team" element={<OurTeam />} />    
+           <Route path="/about/team" element={<OurTeam />} />  
+
+            <Route path="/pdf/:file" element={<PDFViewerPage />} />  
+            
         </Routes>
       </BrowserRouter>
     </>
